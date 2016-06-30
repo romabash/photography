@@ -388,6 +388,20 @@ a.btn.center-block{
   display: none;
 }
 
+/* Footer */
+footer p{
+  font-size: 18px;
+}
+footer{
+  padding: 20px 20px;  
+}
+footer.container-fluid{
+  background-color: #999999;
+  color: 	 #1a1a1a;
+}
+
+
+
 /* Screen Size */
 
 /********** Large devices only **********/
