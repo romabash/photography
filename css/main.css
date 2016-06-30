@@ -8,6 +8,7 @@ body {
 #back-splash{
   position: relative;
   background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,0.1)), url('../images/beach1.jpg'); /*Linear gradient, CSS3 */
+  background-size: 100%;  /* iOS */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center; 
@@ -253,6 +254,7 @@ section.section.parallax {
   background-position: 50% 50%; /* centers imaage */
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-size: 100%;  /* iOS */
   background-size: cover;
 }
 section.section.parallax h3 {
