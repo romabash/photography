@@ -72,7 +72,7 @@ body {
 
 /* Initial popup menu (hidden) */
 
-.fa-arrow-left{
+.fa.fa-arrow-left{
   display: none;
 }
 .glyphicon{
